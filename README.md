@@ -8,7 +8,7 @@ To use this configuration add a `renovate.json5` file to the repo root with the 
 {
  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
  "extends": [
-  "@davidsneighbour"
+  "github>davidsneighbour/renovate-config"
  ]
 }
 ```
