@@ -1,0 +1,20 @@
+{
+  "name": "@davidsneighbour/renovate-config",
+  "version": "1.2023.0",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsneighbour/hugo-modules.git"
+  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/hugo-modules/issues"
+  },
+  "homepage": "https://github.com/davidsneighbour/renovate-config",
+  "scripts": {
+    "release": "commit-and-tag-version --release-as patch -a -t \"modules/pictures/v\" --releaseCommitMessageFormat \"chore(release): modules/pictures/v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:minor": "commit-and-tag-version --release-as minor -a -t \"modules/pictures/v\" --releaseCommitMessageFormat \"chore(release): modules/pictures/v{{currentTag}}\" && ./bin/release/postrelease",
+    "update": "npm-check-updates -u && npm install && git add package*"
+  }
+}
