@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/renovate-config",
-  "version": "1.2023.4",
+  "version": "1.2023.5",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,8 +12,8 @@
   },
   "homepage": "https://github.com/davidsneighbour/renovate-config",
   "scripts": {
-    "release": "commit-and-tag-version --release-as patch -a -t \"modules/pictures/v\" --releaseCommitMessageFormat \"chore(release): modules/pictures/v{{currentTag}}\" && ./bin/release/postrelease",
-    "release:minor": "commit-and-tag-version --release-as minor -a -t \"modules/pictures/v\" --releaseCommitMessageFormat \"chore(release): modules/pictures/v{{currentTag}}\" && ./bin/release/postrelease",
+    "release": "commit-and-tag-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:minor": "commit-and-tag-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
     "update": "npm-check-updates -u && npm install && git add package*"
   },
   "dependencies": {
