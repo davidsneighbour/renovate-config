@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2023.8](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.7...v1.2023.8) (2023-09-29)
+
 ## [1.2023.7](https://github.com/davidsneighbour/hugo-modules/compare/v1.2023.6...v1.2023.7) (2023-09-29)
 
 ## [1.2023.6](https://github.com/davidsneighbour/hugo-modules/compare/v1.2023.5...v1.2023.6) (2023-09-29)
