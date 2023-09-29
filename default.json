@@ -8,11 +8,13 @@
 	],
 	"extends": [
 		"config:base",
-		":disableDependencyDashboard"
+		":disableDependencyDashboard",
+    ":semanticCommitTypeAll(chore)"
 	],
 	"major": {
 		"dependencyDashboardApproval": true
 	},
+  "onboarding": false,
 	"packageRules": [
 		{
 			"matchPackagePatterns": [

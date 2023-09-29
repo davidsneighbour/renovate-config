@@ -4,11 +4,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidsneighbour/hugo-modules.git"
+    "url": "git+https://github.com/davidsneighbour/renovate-config.git"
   },
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/davidsneighbour/hugo-modules/issues"
+    "url": "https://github.com/davidsneighbour/renovate-config/issues"
   },
   "homepage": "https://github.com/davidsneighbour/renovate-config",
   "scripts": {
