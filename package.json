@@ -17,6 +17,6 @@
     "update": "npm-check-updates -u && npm install && git add package*"
   },
   "dependencies": {
-    "@davidsneighbour/configurations": "^5.2.43"
+    "@davidsneighbour/configurations": "^5.5.2"
   }
 }
