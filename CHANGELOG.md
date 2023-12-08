@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2023.12](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.11...v1.2023.12) (2023-12-08)
+
 ## [1.2023.11](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.9...v1.2023.11) (2023-11-16)
 
 ## [1.2023.10](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.9...v1.2023.10) (2023-11-16)
