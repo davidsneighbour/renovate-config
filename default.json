@@ -26,7 +26,8 @@
 		{
 			"matchPackagePatterns": [
 				"lint",
-				"prettier"
+				"prettier",
+        "caniuse-lite"
 			],
 			"automerge": true
 		},
