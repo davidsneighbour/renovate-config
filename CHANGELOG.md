@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2023.13](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.12...v1.2023.13) (2024-02-09)
+
+
+### Bug Fixes
+
+* remove dependency dashboard configs to properly disable it ([aa7c1d6](https://github.com/davidsneighbour/renovate-config/commit/aa7c1d646690cb43d6e3f6fec93c998f1b9c9bf0))
+
 ## [1.2023.12](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.11...v1.2023.12) (2023-12-08)
 
 ## [1.2023.11](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.9...v1.2023.11) (2023-11-16)
