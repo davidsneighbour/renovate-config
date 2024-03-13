@@ -15,6 +15,12 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
+        "@types/*"
+      ],
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": [
         "^@davidsneighbour"
       ],
       "automerge": true
