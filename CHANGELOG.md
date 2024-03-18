@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2024.1](https://github.com/davidsneighbour/renovate-config/compare/v1.2024.0...v1.2024.1) (2024-03-18)
+
+
+### Features
+
+* automerge [@types](https://github.com/types) packages ([e8f17bc](https://github.com/davidsneighbour/renovate-config/commit/e8f17bcd081a6b2527fc841196dc86f7f3e6c7e6))
+
 ## [1.2024.0](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.13...v1.2024.0) (2024-02-09)
 
 ## [1.2023.13](https://github.com/davidsneighbour/renovate-config/compare/v1.2023.12...v1.2023.13) (2024-02-09)
