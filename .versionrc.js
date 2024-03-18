@@ -1,8 +1,5 @@
 const defaultStandardVersion = {
-  // for available options see https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.1.0/README.md
-  scripts: {
-    prerelease: "./bin/repo/hooks/prerelease",
-  },
+  // for available options see https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md
   bumpFiles: [
     {
       filename: "package.json",
