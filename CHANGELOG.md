@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2024.2](https://github.com/davidsneighbour/renovate-config/compare/v1.2024.1...v1.2024.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* add only used packages ([7788c19](https://github.com/davidsneighbour/renovate-config/commit/7788c192d1d512fc4ea302453a04abdabdc03fba))
+
 ## [1.2024.1](https://github.com/davidsneighbour/renovate-config/compare/v1.2024.0...v1.2024.1) (2024-03-18)
 
 
