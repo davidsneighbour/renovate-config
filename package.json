@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "@davidsneighbour/prettier-config": "^2024.3.0",
-    "@davidsneighbour/standard-version-config": "^5.11.0"
+    "@davidsneighbour/standard-version-config": "^5.11.1"
   }
 }
