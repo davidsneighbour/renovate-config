@@ -17,7 +17,7 @@
     "update": "npm-check-updates -u && npm install && git add package*"
   },
   "dependencies": {
-    "@davidsneighbour/prettier-config": "^2024.3.23",
+    "@davidsneighbour/prettier-config": "^2024.3.24",
     "@davidsneighbour/standard-version-config": "^5.11.1"
   }
 }
