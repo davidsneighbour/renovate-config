@@ -14,7 +14,8 @@
   "scripts": {
     "release": "commit-and-tag-version --sign --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
     "release:minor": "commit-and-tag-version --sign --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
-    "update": "npm-check-updates -u && npm install && git add package*"
+    "update": "npm-check-updates -u && npm install && git add package*",
+    "verify": "export RENOVATE_CONFIG_FILE=default.json && npx --yes --package renovate -- renovate-config-validator"
   },
   "dependencies": {
     "@davidsneighbour/prettier-config": "2024.3.43",
