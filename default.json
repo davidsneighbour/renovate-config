@@ -17,6 +17,12 @@
   "onboarding": false,
   "packageRules": [
     {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    },
+    {
       "matchPackagePatterns": [
         "@types/*"
       ],
@@ -24,9 +30,16 @@
     },
     {
       "matchPackagePatterns": [
-        "^@davidsneighbour"
+        "@davidsneighbour/*"
       ],
-      "automerge": true
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "groupName": "davidsneighbour"
     },
     {
       "matchPackagePatterns": [
@@ -37,25 +50,16 @@
       "automerge": true
     },
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
+      "matchPackagePatterns": [
+        "eslint"
       ],
-      "automerge": true
-    },
-    {
-      "matchPackagePatterns": ["eslint"],
       "groupName": "eslint"
     },
     {
-      "matchPackagePatterns": ["remark"],
+      "matchPackagePatterns": [
+        "remark"
+      ],
       "groupName": "remark"
-    },
-    {
-      "matchPackagePatterns": ["davidsneighbour"],
-      "groupName": "davidsneighbour"
     }
   ],
   "additionalBranchPrefix": "{{parentDir}}/"
