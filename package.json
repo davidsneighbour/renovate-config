@@ -20,6 +20,6 @@
   "dependencies": {
     "@davidsneighbour/prettier-config": "2024.3.43",
     "@davidsneighbour/release-config": "2024.3.43",
-    "commit-and-tag-version": "^12.4.2"
+    "commit-and-tag-version": "^12.4.4"
   }
 }
