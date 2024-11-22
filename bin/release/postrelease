@@ -44,7 +44,6 @@ fi
 # Ensure required environment variables are loaded
 : "${GITHUB_SECRET:?Environment variable GITHUB_SECRET is not set}"
 : "${GITHUB_REPOSLUG:?Environment variable GITHUB_REPOSLUG is not set}"
-: "${TAGSLUG:?Environment variable TAGSLUG is not set}"
 
 VERSION=$(node -pe 'require("./package.json")["version"]')
 
@@ -63,7 +62,7 @@ fi
 
 # Create a release on GitHub
 GITHUB_REPO=https://github.com/${GITHUB_REPOSLUG}
-TAGNAME=${TAGSLUG}/v${VERSION}
+TAGNAME=v${VERSION}
 RELEASE_RESPONSE=$(curl \
   -s \
   -X POST \
