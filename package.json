@@ -18,7 +18,7 @@
     "verify": "export RENOVATE_CONFIG_FILE=default.json && npx --yes --package renovate -- renovate-config-validator"
   },
   "dependencies": {
-    "@davidsneighbour/prettier-config": "2024.4.8",
+    "@davidsneighbour/prettier-config": "2024.4.9",
     "@davidsneighbour/release-config": "2024.4.8"
   }
 }
