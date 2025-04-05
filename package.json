@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/renovate-config",
-  "version": "1.2025.1",
+  "version": "1.2025.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,8 +12,8 @@
   },
   "homepage": "https://github.com/davidsneighbour/renovate-config",
   "scripts": {
-    "release": "commit-and-tag-version --sign --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
-    "release:minor": "commit-and-tag-version --sign --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release": "commit-and-tag-version --sign --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
+    "release:minor": "commit-and-tag-version --sign --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
     "update": "npm-check-updates -u && npm install && git add package*",
     "verify": "export RENOVATE_CONFIG_FILE=default.json && npx --yes --package renovate -- renovate-config-validator"
   },
