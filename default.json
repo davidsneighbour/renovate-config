@@ -6,7 +6,7 @@
     "* 21-23,0-4 * * 5,6"
   ],
   "extends": [
-    "config:base",
+    "config:recommended",
     ":semanticCommitTypeAll(chore)",
     ":disableDependencyDashboard"
   ],
@@ -18,21 +18,12 @@
   "onboarding": false,
   "packageRules": [
     {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "/@types/*/"
+      ]
     },
     {
-      "matchPackagePatterns": [
-        "@types/*"
-      ],
-      "automerge": true
-    },
-    {
-      "matchPackagePatterns": [
-        "@davidsneighbour/*"
-      ],
       "automerge": true,
       "automergeSchedule": [
         "at any time"
@@ -50,27 +41,30 @@
         "replacement"
       ],
       "groupName": "davidsneighbour",
-      "ignoreTests": true
+      "ignoreTests": true,
+      "matchPackageNames": [
+        "/@davidsneighbour/*/"
+      ]
     },
     {
-      "matchPackagePatterns": [
-        "lint",
-        "prettier",
-        "caniuse-lite"
-      ],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "/lint/",
+        "/prettier/",
+        "/caniuse-lite/"
+      ]
     },
     {
-      "matchPackagePatterns": [
-        "eslint"
-      ],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "/eslint/"
+      ]
     },
     {
-      "matchPackagePatterns": [
-        "remark"
-      ],
-      "groupName": "remark"
+      "groupName": "remark",
+      "matchPackageNames": [
+        "/remark/"
+      ]
     }
   ],
   "additionalBranchPrefix": "{{parentDir}}/",
