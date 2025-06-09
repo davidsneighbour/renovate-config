@@ -70,6 +70,7 @@
   "additionalBranchPrefix": "{{parentDir}}/",
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "commitMessageAction": "build(deps): update lockfile dependencies"
   }
 }
