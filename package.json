@@ -4,13 +4,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnbhq/renovate-config.git"
+    "url": "git+https://github.com/davidsneighbour/renovate-config.git"
   },
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnbhq/renovate-config/issues"
+    "url": "https://github.com/davidsneighbour/renovate-config/issues"
   },
-  "homepage": "https://github.com/dnbhq/renovate-config",
+  "homepage": "https://github.com/davidsneighbour/renovate-config",
   "scripts": {
     "release": "release-it",
     "release:minor": "release-it minor",

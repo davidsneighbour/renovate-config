@@ -10,7 +10,7 @@ Add a `renovate.json5` file to your repository root:
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>dnbhq/renovate-config"
+    "github>davidsneighbour/renovate-config"
   ]
 }
 ```
