@@ -39,10 +39,12 @@ See [`default.json`](./default.json) for full details.
 
 ## Release process
 
-Releases are managed with [`release-it`](https://github.com/release-it/release-it) and [`@release-it/conventional-changelog`](https://github.com/release-it/conventional-changelog):
+Releases are managed with [`release-it`](https://github.com/release-it/release-it) and the shared [`@dnbhq/release-config`](https://github.com/dnbhq/release-config) defaults in `.release-it.ts`:
 
 - `npm run release` → recommended version bump from conventional commits
 - `npm run release:minor` → force a minor release
 - `npm run release:major` → force a major release
+- `npm run release:dry` → preview a release without changes
+- `npm run release:config` → print the merged release-it configuration
 
-The process updates the package version and `CHANGELOG.md`, creates a signed Git tag, and creates a GitHub release when `GITHUB_TOKEN` is available. npm publication is disabled.
+The process updates the package version and `CHANGELOG.md`, creates a Git tag, and creates a GitHub release when `GITHUB_TOKEN_CONTENT_PRIVATE` is available. Releases run only from a clean `main` branch. npm publication is disabled.

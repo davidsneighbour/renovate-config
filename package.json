@@ -15,18 +15,13 @@
     "release": "release-it",
     "release:minor": "release-it minor",
     "release:major": "release-it major",
-    "verify": "npx --yes --package renovate -- renovate-config-validator --strict default.json"
+    "verify": "npx --yes --package renovate -- renovate-config-validator --strict default.json",
+    "release:dry": "release-it --dry-run",
+    "release:config": "release-config-print"
   },
   "devDependencies": {
+    "@dnbhq/release-config": "2.0.1",
     "@release-it/conventional-changelog": "12.0.2",
     "release-it": "21.1.1"
-  },
-  "overrides": {
-    "get-uri": {
-      "basic-ftp": "^6.2.1"
-    },
-    "release-it": {
-      "undici": "^7.29.1"
-    }
   }
 }
