@@ -11,12 +11,14 @@
     ":semanticCommitTypeAll(chore)",
     ":disableDependencyDashboard"
   ],
+  "semanticCommits": "enabled",
+  "semanticCommitType": "build",
+  "semanticCommitScope": "deps",
   "ignorePaths": [
     "**/node_modules/**",
     "**/_vendor/**",
     "**/scratch/**"
   ],
-  "onboarding": false,
   "packageRules": [
     {
       "automerge": true,
