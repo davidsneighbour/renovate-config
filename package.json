@@ -12,9 +12,9 @@
   },
   "homepage": "https://github.com/davidsneighbour/renovate-config",
   "scripts": {
-    "release": "release-it",
-    "release:minor": "release-it minor",
-    "release:major": "release-it major",
+    "release": "release-it --ci",
+    "release:minor": "release-it minor --ci",
+    "release:major": "release-it major --ci",
     "verify": "npx --yes --package renovate -- renovate-config-validator --strict default.json",
     "release:dry": "release-it --dry-run",
     "release:config": "release-config-print"
@@ -22,6 +22,6 @@
   "devDependencies": {
     "@dnbhq/release-config": "2.0.1",
     "@release-it/conventional-changelog": "12.0.2",
-    "release-it": "21.1.1"
+    "release-it": "21.1.2"
   }
 }
