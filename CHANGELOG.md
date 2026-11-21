@@ -11,6 +11,21 @@
 * **deps:** update release-it to 21.1.2 ([752d92a](https://github.com/davidsneighbour/renovate-config/commit/752d92a31f1903305bed3dc7d46b9f8906dc0777))
 * **release:** run release-it in CI mode ([13c12df](https://github.com/davidsneighbour/renovate-config/commit/13c12df7e2f3454e06c5515d46f595a5203dd114))
 
+### Chore
+
+* **release:** v3.0.2 ([50024fe](https://github.com/davidsneighbour/renovate-config/commit/50024fe22f43aee0fe39a6ad1005d3281a6384f6))
+
+## [3.0.2](https://github.com/davidsneighbour/renovate-config/compare/v3.0.1...v3.0.2) (2026-11-21)
+
+### Fix
+
+* remove global-only onboarding option from preset ([32d6725](https://github.com/davidsneighbour/renovate-config/commit/32d6725a1f882f1a93fab33d9602fbf9dd28650d))
+
+### Build
+
+* **deps:** update release-it to 21.1.2 ([752d92a](https://github.com/davidsneighbour/renovate-config/commit/752d92a31f1903305bed3dc7d46b9f8906dc0777))
+* **release:** run release-it in CI mode ([13c12df](https://github.com/davidsneighbour/renovate-config/commit/13c12df7e2f3454e06c5515d46f595a5203dd114))
+
 ## [3.0.1](https://github.com/davidsneighbour/renovate-config/compare/v3.0.0...v3.0.1) (2026-10-29)
 
 ### Fix
