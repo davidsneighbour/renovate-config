@@ -15,7 +15,7 @@
     "release": "release-it --ci",
     "release:minor": "release-it minor --ci",
     "release:major": "release-it major --ci",
-    "verify": "npx --yes --package renovate -- renovate-config-validator --strict default.json",
+    "verify": "npx --yes --allow-scripts=re2 --package renovate -- renovate-config-validator --strict --no-global default.json",
     "release:dry": "release-it --dry-run",
     "release:config": "release-config-print"
   },
