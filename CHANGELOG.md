@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.3](https://github.com/davidsneighbour/renovate-config/compare/v3.0.2...v3.0.3) (2026-11-22)
+
+### Build
+
+* **verify:** validate preset as repo config and allow re2 build ([94d00cc](https://github.com/davidsneighbour/renovate-config/commit/94d00cc18fa39030346204d2976ece9d9c7f60c9))
+
+### Chore
+
+* **release:** v3.0.2 ([e24b9e4](https://github.com/davidsneighbour/renovate-config/commit/e24b9e48796214bb587fdd15de4e1aaaf0bf8eac))
+
 ## [3.0.2](https://github.com/davidsneighbour/renovate-config/compare/v3.0.1...v3.0.2) (2026-11-21)
 
 ### Fix
